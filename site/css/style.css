@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-image:url('../img/asfalto.png');
+    font-family: 'Roboto', sans-serif;
+    background-size: 100%;
+}
+.topo{     
+    width: 30%;
+}
+.fixed-top{
+    width: 25%;
+}
+.container{     
+    padding: 0;
+}
+.body-content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.flex {
+    display: flex;
+    width: fit-content;
+}
+.logo {
+    width: 25%;
+    flex: 1;
+}
+.rodape{
+    padding: 60px 0;
+    background-color: rgb(80, 78, 78);    
+}
+.rodape a{
+    color: #ccc;
+}
+.end div:nth-child(2){
+    flex: 1;
+    text-align: center;
+}
+.bxslider{
+    height: 200px;
+}
+.bg-silver{
+    background-color: #E4E7EC;
+    color: #000000;
+}
+.form{
+    background-color: silver;    
+}
+.form input{    
+    width: 500px;
+    height: 30px;
+    
+}
+.sectionContent{
+    padding: 75px;
+}
+.mensagem{
+    width: 500px;
+    height: 300px;
+}
+.div40{
+    width: 200px!important;
+    text-align: center;
+    height: 250px!important;
+    padding: 5px;
+    position: relative;
+}
+.div60{
+    width: 60%!important;
+    text-align: left;
+    height: 250px!important;
+    padding: 5px;
+    position: relative;
+}
+.img100{
+    width: 100px!important;
+}
+.tabelaHorarios{
+    width: 90%;
+    color: #ffffff;
+}
+@media(max-width: 600px){
+
+}
