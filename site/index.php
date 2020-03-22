@@ -257,7 +257,7 @@
         <section class="form" id="contato" style="height: 650px;">
             <div class="sectionContent">
                 <h2>Fale Conosco</h2>
-                <form action="" method="post" id="formContato">
+                <form action="recebeMensagem.php" method="post" id="formContato">
                     <div class="form-group">
                         <label for="name">Nome</label>
                         <input type="text" name="txtNome" id="txtNome" class="form-control" placeholder="Digite seu nome" />
@@ -271,7 +271,7 @@
                         <textarea name="txtMensagem" id="txtMensagem" class="form-control mensagem" placeholder="Digite a sua Mensagem"></textarea>
                     </div>
                     <div class="form-group">
-                        <button type="button" class="btn btn-secondary">Enviar</button>
+                        <input type="submit" class="btn btn-secondary" value="Enviar"/>
                         <!--<input type="submit" name="btnEnviar" id="btnEnviar" class="btn btn-secondary  enviar" value="Enviar">-->
                     </div>
                 </form>
@@ -280,14 +280,13 @@
         <footer class="rodape">
             <div class="container flex end">
                 <div class="flex">
-                    <img src="img/face.png.png" class="rounded mx-auto d-block" alt="..." height="50px">
-                    <img src="img/insta.png.png" class="rounded mx-auto d-block" alt="..." height="50px">
-                    <img src="img/twitter.png.png" class="rounded mx-auto d-block" alt="..." height="50px">
-                    <img src="img/likedin.png.png" class="rounded mx-auto d-block" alt="..." height="50px">
+                    <img src="img/face.png.png" class="rounded mx-auto d-block" alt="..." height="50px" style="cursor: pointer;" onclick="window.open('https://facebook.com');">
+                    <img src="img/insta.png.png" class="rounded mx-auto d-block" alt="..." height="50px" style="cursor: pointer;" onclick="window.open('https://instagram.com');">
+                    <img src="img/twitter.png.png" class="rounded mx-auto d-block" alt="..." height="50px" style="cursor: pointer;" onclick="window.open('https://twitter.com');">
+                    <img src="img/likedin.png.png" class="rounded mx-auto d-block" alt="..." height="50px" style="cursor: pointer;" onclick="window.open('https://linkedin.com');">
                 </div>                 
                 <div>
-                    &copy; 2019 aSc Applied Software Consultants <br />
-                    <a href="#">Terms of service</a>
+                    &copy; 2019 aSc Applied Software Consultants <br>                    
                 </div>
             </div>
         </footer>
